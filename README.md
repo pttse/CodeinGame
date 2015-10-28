@@ -1,2 +1,2 @@
 # CodeinGame
-CodeinGame Code 
+My code implmention in Codeingame (https://www.codingame.com)    
