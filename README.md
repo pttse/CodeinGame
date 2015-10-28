@@ -1,2 +1,2 @@
 # CodeinGame
-My code implmention in Codingame (https://www.codingame.com)    
+My C++ implementation in Codingame (https://www.codingame.com)
