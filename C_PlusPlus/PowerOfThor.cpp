@@ -90,24 +90,23 @@ int main()
             if(thorY > lightY ){
                 //check if moving to left is valid 
                 if(checkWithinMap(0, thorY-1)){
-                    //-1 x-position
+                    //-1 y-position
                     thorY--;
-                    //add the direction to the left(ie w)
+                    //add the direction to the left(ie N)
                     directionY = "N";
                 }
-            }else if(thorY < lightY){ //the light is on the right
+            }else if(thorY < lightY){ //if the light bwlow the current position
                 //check if moving to right is valid 
                 if(checkWithinMap(0, thorY+1)){
-                    //+1 x-position
+                    //+1 y-position
                     thorY++;
-                    //add the direction to right (ie E)
+                    //add the direction to right (ie S)
                     directionY = "S";
                 }//end checking 
             }
             
-            
             cout << directionY + directionX << endl; // A single line providing the move to be made: N NE E SE S SW W or NW
-        }
+        }//end while loop of each round 
 
 
 
